@@ -12,7 +12,5 @@ $persons = [
     ['name' => 'loulou', 'age' => 30],
 ];
 
-// echo $twig->render('home.html.twig', ['name' => $name]);
-// echo $twig->render('products.html.twig', ['products' => $products]);
-// echo $twig->render('index.html.twig', ['products' => $products]);
-echo $twig->render('hello.html.twig', ['persons' => $persons]);
+echo $twig->render('index.html.twig', ['products' => $products]);
+echo $twig->render('details.html.twig', ['name' => $name]);
